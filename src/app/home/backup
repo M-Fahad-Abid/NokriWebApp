@@ -1,0 +1,478 @@
+
+<mat-grid-list cols="1" gutterSize="0px" >
+  <!-- page 1 -->
+  <mat-grid-tile>
+    <div class="page1">
+      <div class="min-heading">A Mega Job board WordPress Theme</div>
+
+      <div class="min-heading2">Your Dream Job is Waiting</div>
+
+      <div class="rectangle">
+        <!-- Input Fields -->
+
+        <div class="label1">Search Jobs</div>
+        <div class="label2">Location</div>
+
+        <div class="input-container">
+          <input
+            type="text"
+            id="plainInput"
+            name="plainInput"
+            placeholder="keyword"
+          />
+          <input
+            type="text"
+            id="fruitInput"
+            name="fruit"
+            list="fruits"
+            placeholder="Select Location"
+          />
+        </div>
+
+        <div class="Searchbtn">
+          <button class="actbutton">Search</button>
+        </div>
+
+        <datalist id="fruits">
+          <option value="Apple"></option>
+          <option value="Banana"></option>
+          <option value="Cherry"></option>
+          <option value="Date"></option>
+          <option value="Fig"></option>
+          <option value="Grape"></option>
+        </datalist>
+      </div>
+
+      <div class="quicklinks">
+        Most Searches
+
+        <a href="">Automotive</a>
+        <a href="">Education</a>
+        <a href="">Health and Care</a>
+        <a href="">Engineering</a>
+      </div>
+    </div>
+  </mat-grid-tile>
+  <!-- page 1 end -->
+
+  <!-- Page 2 -->
+  <mat-grid-tile>
+    <div class="page2">
+      <div class="mainheading">Explore Categories</div>
+
+      <div class="horizontal-line"></div>
+
+      <div class="introtxt">
+        Lorem ipsum dolor sit amet elit, sed do eiusmod tempor
+      </div>
+
+      <!-- categories cards -->
+
+      <div class="card-container">
+        <div class="card">
+          <img src="../../assets/images/car.png" alt="" class="cardimage" />
+          <div class="cardtxt">Automotive</div>
+          <div class="cardopt">(1 Opening)</div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../assets/images/blackboard.png"
+            alt=""
+            class="cardimage"
+          />
+          <div class="cardtxt">Education</div>
+          <div class="cardopt">(1 Opening)</div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../assets/images/cardiogram1.png"
+            alt=""
+            class="cardimage"
+          />
+          <div class="cardtxt">Health and Care</div>
+          <div class="cardopt">(1 Opening)</div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../assets/images/paint-roller-1.png"
+            alt=""
+            class="cardimage"
+          />
+          <div class="cardtxt">Construction</div>
+          <div class="cardopt">(1 Opening)</div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../assets/images/painting-palette.png"
+            alt=""
+            class="cardimage"
+          />
+          <div class="cardtxt">Designer</div>
+          <div class="cardopt">(1 Opening)</div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../assets/images/spinning.png"
+            alt=""
+            class="cardimage"
+          />
+          <div class="cardtxt">Fintness Trainer</div>
+          <div class="cardopt">(1 Opening)</div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../assets/images/promotion.png"
+            alt=""
+            class="cardimage"
+          />
+          <div class="cardtxt">Marketing</div>
+          <div class="cardopt">(0 Opening)</div>
+        </div>
+
+        <div class="card">
+          <img
+            src="../../assets/images/question.png"
+            alt=""
+            class="cardimage"
+          />
+          <div class="cardtxt">Other Services</div>
+          <div class="cardopt">(1 Opening)</div>
+        </div>
+      </div>
+
+      <div class="Explore">
+        <button class="explorebtn">Explore More</button>
+      </div>
+    </div>
+  </mat-grid-tile>
+  <!--Page 2 end  -->
+
+  <!-- Page 3 -->
+  <mat-grid-tile>
+    <div class="page3">
+      <div class="maintxt">Your Dream Jobs Are Waiting</div>
+
+      <div class="text2">
+        Over 1 million interactions, 50,000 success stories Make yours now.
+      </div>
+
+      <div class="searchjobs">
+        <button class="searchjobbtn">Search Job</button>
+        <button class="applyjob">Apply Now</button>
+      </div>
+    </div>
+  </mat-grid-tile>
+  <!-- Page 3 end -->
+
+  <!-- page 4 -->
+  <mat-grid-tile>
+    <div class="page4">
+      <div class="featuredheading">Featured Jobs</div>
+
+      <div class="horizontal-line"></div>
+
+      <div class="introtxt">
+        Know your worth and find the job that qualify your life
+      </div>
+
+      <!--Featured Job  -->
+      <div class="Featuredjob-container">
+        <div class="Featuredjob-card">
+          <div class="cardtxt">Automotive</div>
+          <div class="cardopt">(1 Opening)</div>
+        </div>
+
+        <div class="Featuredjob-card">
+          <div class="cardtxt">Education</div>
+          <div class="cardopt">(1 Opening)</div>
+        </div>
+
+        <div class="Featuredjob-card">
+          <div class="cardtxt">Education</div>
+          <div class="cardopt">(1 Opening)</div>
+        </div>
+      </div>
+
+      <button class="explorejobsbtn">Browse All Jobs</button>
+    </div>
+  </mat-grid-tile>
+  <!-- page 4 end -->
+
+  <!-- page 5 -->
+  <mat-grid-tile>
+    <div class="page5">Featured Candidates</div>
+  </mat-grid-tile>
+  <!-- page 5 end -->
+
+  <!-- page 6 -->
+  <mat-grid-tile>
+    <div class="page6">Pricing Packages</div>
+  </mat-grid-tile>
+  <!-- page 6 end -->
+
+  <!-- page 7 -->
+  <mat-grid-tile>
+    <div class="page7">Testimonials From Our Customers</div>
+  </mat-grid-tile>
+  <!-- page 7 end -->
+
+  <!-- page 8 -->
+  <mat-grid-tile>
+    <div class="page8">Candidate Packages</div>
+  </mat-grid-tile>
+  <!-- page 8 end -->
+
+  <!-- page 9 -->
+  <mat-grid-tile>
+    <div class="page9">Download our Mobile Apps Today</div>
+  </mat-grid-tile>
+  <!-- page 9 end -->
+
+  <!-- page 10 -->
+  <mat-grid-tile>
+    <div class="page10">Latest News</div>
+  </mat-grid-tile>
+  <!-- page 10 end -->
+</mat-grid-list>
+
+
+
+
+
+
+
+<!-- backup 2 -->
+<app-navbar></app-navbar>
+<div class="container-fluid">
+
+
+
+  <!-- Page 1 start -->
+  <div class="page1">
+
+    <div class="container">
+    <div class="min-heading">A Mega Job board WordPress Theme</div>
+
+    <div class="min-heading2">Your Dream Job is Waiting</div>
+
+    <div class="rectangle">
+      <!-- Input Fields -->
+
+      <div class="label1">Search Jobs</div>
+      <div class="label2">Location</div>
+
+      <div class="input-container">
+        <input
+          type="text"
+          id="plainInput"
+          name="plainInput"
+          placeholder="keyword"
+        />
+        <input
+          type="text"
+          id="fruitInput"
+          name="fruit"
+          list="fruits"
+          placeholder="Select Location"
+        />
+      </div>
+
+      <div class="Searchbtn">
+        <button class="actbutton">Search</button>
+      </div>
+
+      <datalist id="fruits">
+        <option value="Apple"></option>
+        <option value="Banana"></option>
+        <option value="Cherry"></option>
+        <option value="Date"></option>
+        <option value="Fig"></option>
+        <option value="Grape"></option>
+      </datalist>
+    </div>
+
+    <div class="quicklinks">
+      Most Searches
+
+      <a href="">Automotive</a>
+      <a href="">Education</a>
+      <a href="">Health and Care</a>
+      <a href="">Engineering</a>
+    </div>
+</div>
+  </div>
+  <!-- page 1 end -->
+
+  <!-- Page 2 start -->
+  <div class="page2">
+    <div class="mainheading">Explore Categories</div>
+
+    <div class="horizontal-line"></div>
+
+    <div class="introtxt">
+      Lorem ipsum dolor sit amet elit, sed do eiusmod tempor
+    </div>
+
+    <!-- categories cards -->
+
+    <div class="card-container">
+      <div class="card">
+        <img src="../../assets/images/car.png" alt="" class="cardimage" />
+        <div class="cardtxt">Automotive</div>
+        <div class="cardopt">(1 Opening)</div>
+      </div>
+
+      <div class="card">
+        <img
+          src="../../assets/images/blackboard.png"
+          alt=""
+          class="cardimage"
+        />
+        <div class="cardtxt">Education</div>
+        <div class="cardopt">(1 Opening)</div>
+      </div>
+
+      <div class="card">
+        <img
+          src="../../assets/images/cardiogram1.png"
+          alt=""
+          class="cardimage"
+        />
+        <div class="cardtxt">Health and Care</div>
+        <div class="cardopt">(1 Opening)</div>
+      </div>
+
+      <div class="card">
+        <img
+          src="../../assets/images/paint-roller-1.png"
+          alt=""
+          class="cardimage"
+        />
+        <div class="cardtxt">Construction</div>
+        <div class="cardopt">(1 Opening)</div>
+      </div>
+
+      <div class="card">
+        <img
+          src="../../assets/images/painting-palette.png"
+          alt=""
+          class="cardimage"
+        />
+        <div class="cardtxt">Designer</div>
+        <div class="cardopt">(1 Opening)</div>
+      </div>
+
+      <div class="card">
+        <img src="../../assets/images/spinning.png" alt="" class="cardimage" />
+        <div class="cardtxt">Fintness Trainer</div>
+        <div class="cardopt">(1 Opening)</div>
+      </div>
+
+      <div class="card">
+        <img src="../../assets/images/promotion.png" alt="" class="cardimage" />
+        <div class="cardtxt">Marketing</div>
+        <div class="cardopt">(0 Opening)</div>
+      </div>
+
+      <div class="card">
+        <img src="../../assets/images/question.png" alt="" class="cardimage" />
+        <div class="cardtxt">Other Services</div>
+        <div class="cardopt">(1 Opening)</div>
+      </div>
+    </div>
+
+    <div class="Explore">
+      <button class="explorebtn">Explore More</button>
+    </div>
+  </div>
+  <!-- Page 2 end -->
+
+  <!-- Page 3 start -->
+  <div class="page3">
+    <div class="maintxt">Your Dream Jobs Are Waiting</div>
+
+    <div class="text2">
+      Over 1 million interactions, 50,000 success stories Make yours now.
+    </div>
+
+    <div class="searchjobs">
+      <button class="searchjobbtn">Search Job</button>
+      <button class="applyjob">Apply Now</button>
+    </div>
+  </div>
+
+  <!-- Page 3 End  -->
+
+  <!-- Page 4 Start -->
+  <div class="page4">
+
+    <div class="featuredheading">
+        Featured Jobs
+    </div>
+
+    <div class="horizontal-line"></div>
+
+    <div class="introtxt">
+        Know your worth and find the job that qualify your life
+      </div>
+
+      <!--Featured Job  -->
+      <div class="Featuredjob-container">
+
+        <div class="Featuredjob-card">
+         
+
+          <div class="cardtxt">Automotive</div>
+          <div class="cardopt">(1 Opening)</div>
+        </div>
+  
+        <div class="Featuredjob-card">
+          
+          <div class="cardtxt">Education</div>
+          <div class="cardopt">(1 Opening)</div>
+        </div>
+
+        <div class="Featuredjob-card">
+          
+          <div class="cardtxt">Education</div>
+          <div class="cardopt">(1 Opening)</div>
+        </div>
+
+
+        </div>
+
+        <button class="explorejobsbtn">Browse All Jobs</button>
+        <button mat-raised-button color="accent">Accent</button>
+  </div>
+  <!-- Page 4 End -->
+
+
+
+
+
+
+
+
+
+
+
+  <div class="page5">Featured Candidates</div>
+
+  <div class="page6">Pricing Packages</div>
+
+  <div class="page7">Testimonials From Our Customers</div>
+
+  <div class="page8">Candidate Packages</div>
+
+  <div class="page9">Download our Mobile Apps Today</div>
+
+  <div class="page10">Latest News</div>
+
+
+</div>

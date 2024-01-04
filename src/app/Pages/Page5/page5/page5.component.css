@@ -1,0 +1,106 @@
+.page5 {
+    background-color: #f9f9f9;
+    display: flex;
+}
+
+.featured-txt {
+    margin-top: 8%;
+    font-size: 1.5rem;
+}
+
+.horizontal-line {
+    height: 2px;
+    width: 6%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #233d7b;
+}
+.cards-section {
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 8%;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative; /* Add this line */
+}
+
+.card-img-top {
+    max-width: 30%;
+    height: auto;
+}
+
+.card-title {
+    margin-top: 10%;
+}
+
+/* Use the correct class name here */
+.horizontal-line-grey {
+    width: 24rem;
+    display: flex;
+    height: 3rem;
+    background-color: #f5f5f5;
+    margin-bottom: 10%;
+    padding: 4%;
+    justify-content: center;
+    gap: 1%;
+}
+.Profile-view{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #9b9b9b;
+    margin-top: 4%;
+    width: 100%;
+    text-decoration: none;
+    font-size: larger;
+    padding-top: 5%;
+    color: black;
+}
+
+/* .move-left-button , .move--button{
+    
+} */
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .cards-section {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .card {
+        display: none;
+      }
+    
+      .card.active {
+        display: flex;
+      }
+    
+      .navigation-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2%;
+      }
+    
+      .move-left-button,
+      .move-right-button {
+        background-color: #233d7b;
+        color: white;
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+      }
+
+}

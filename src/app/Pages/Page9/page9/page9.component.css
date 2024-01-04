@@ -1,0 +1,100 @@
+.page9 {
+  
+    background-image: linear-gradient(rgb(2 52 117 / 71%), rgb(6 2 12 / 84%)), url(https://jobs.nokriwp.com/wp-content/uploads/2018/08/calltoaction.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.heading {
+    display: flex;
+    margin-top: 35%;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 3%;
+    font-weight: bold;
+    max-width: 50%;
+}
+
+.details {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 2%;
+  max-width: 80%;
+}
+
+.imgs {
+  margin-top: 10%;
+}
+
+.images {
+  gap: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.images img {
+  width: 150px;
+  height: auto;
+}
+
+.imgs img {
+  height: auto;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .heading {
+    display: flex;
+    margin-top: 30%;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5%;
+  }
+
+  .details {
+    display: flex;
+    color: white;
+    font-size: 17px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 5%;
+  }
+
+  .imgs {
+    margin-top: 10%;
+  }
+
+  .images {
+    gap: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .images img {
+    width: 150px; /* Set the width to your desired size */
+    height: auto; /* Maintain the aspect ratio */
+  }
+
+  .imgs img {
+    width: 325px; /* Set the width to your desired size */
+    height: auto; /* Maintain the aspect ratio */
+  }
+}

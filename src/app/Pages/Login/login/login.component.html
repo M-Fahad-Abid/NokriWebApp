@@ -1,0 +1,90 @@
+<app-navbar></app-navbar>
+
+<div class="Login">
+  <div class="container">
+    <div class="row">
+      <div class="top">
+        <div class="heading">Account Register</div>
+        <div class="horizontal-line"></div>
+        <div class="head-txt">
+          Having great skills and specialty in software quality assurance,
+          software testing, software requirement.
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <div class="divider">
+            <div class="form-part">
+              <div class="intro">Login Using your email</div>
+
+              <form class="example-form">
+                <!-- Email -->
+                <mat-form-field class="example-full-width">
+                  <mat-label>Email</mat-label>
+                  <input
+                    type="email"
+                    matInput
+                    [formControl]="emailFormControl"
+                    placeholder="Ex. pat@example.com"
+                  />
+                  @if (emailFormControl.hasError('email') &&
+                  !emailFormControl.hasError('required')) {
+                  <mat-error>Please enter a valid email address</mat-error>
+                  } @if (emailFormControl.hasError('required')) {
+                  <mat-error>Email is <strong>required</strong></mat-error>
+                  }
+                </mat-form-field>
+
+                <!-- Password -->
+                <mat-form-field class="example-full-width">
+                  <mat-label>Password</mat-label>
+                  <input
+                    type="password"
+                    matInput
+                    [formControl]="emailFormControl"
+                    placeholder=" **** "
+                  />
+
+                  @if (emailFormControl.hasError('required')) {
+                  <mat-error>Password is <strong>required</strong></mat-error>
+                  }
+                </mat-form-field>
+
+                <!--  -->
+                <div class="boxnbtn">
+                  <div class="chkbx">
+                    <a href="">Forget Password</a>
+                  </div>
+
+                  <div class="buttonp">
+                    <div class="example-button-row">
+                      <button mat-raised-button color="primary">Login</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- already account btn -->
+                <div class="ara">
+                  Don't you have account?
+                  <a href=""> Sign up now </a>
+                </div>
+              </form>
+            </div>
+
+            <div class="colorpart">
+              <div class="mth">Using Social Accounts</div>
+
+              <div class="mtt">
+                mollis et mi. Morbi elementum, purus eu congue efficitur, justo
+                dolor condimentum ex, at gravida nisi
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

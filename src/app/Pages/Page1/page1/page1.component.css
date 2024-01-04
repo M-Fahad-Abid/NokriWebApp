@@ -1,0 +1,126 @@
+.page1 {
+  height: 100vh;
+  background-image: url(https://jobs.nokriwp.com/wp-content/uploads/2018/09/4.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.min-heading,
+.min-heading2 {
+  color: #fff;
+  text-align: center;
+  margin: 1%;
+}
+
+.min-heading {
+  font-size: large;
+}
+
+.min-heading2 {
+  font-size: xxx-large;
+  font-weight: bold;
+  color: #fff;
+}
+
+.rectangle {
+  margin-top: 2%;
+  padding: 1.5rem 2rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.rectangle > div {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.mat-form-field {
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+button {
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.quicklinks {
+  display: flex;
+  align-items: center;
+}
+
+.txt {
+  color: white;
+  margin-right: 30px;
+}
+
+.quicklinks a {
+  color: white;
+  margin: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+  .page1 {
+    height: 100vh;
+    background-image: url(https://jobs.nokriwp.com/wp-content/uploads/2018/09/4.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .rectangle {
+    margin-top: 5%;
+    /* height: 50vh; */
+    /* width: 38vh; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .min-heading {
+    font-size: 1rem;
+    margin-top: 10%;
+  }
+
+  .min-heading2 {
+    font-size: 2rem;
+  }
+
+  .quicklinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .txt {
+    color: white;
+    margin-top: 5%;
+  }
+
+  .links{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .quicklinks a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+  }
+}

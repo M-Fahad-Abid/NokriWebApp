@@ -1,0 +1,73 @@
+.page10 {
+  background-color: white;
+}
+
+.head {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  flex-direction: column;
+}
+
+.mainheading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+.horizontal-line {
+  height: 2px;
+  width: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #233d7b;
+}
+
+.introtxt {
+  lighting-color: currentcolor;
+  color: grey;
+  margin-bottom: 4%;
+  font-palette: light;
+}
+
+.card-body img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.card-body a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: black;
+}
+
+.opt {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10%;
+  margin-bottom: 5%;
+}
+
+.ft {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ft img {
+  width: 20%;
+  border-radius: 50px;
+}

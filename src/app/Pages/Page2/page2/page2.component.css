@@ -1,0 +1,162 @@
+.page2 {
+  min-height: 100vh;
+  width: 100vw;
+  background-image: url(https://jobs.nokriwp.com/wp-content/uploads/2018/10/bg-image-category.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardimage{
+    width: 100px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 10%;
+}
+.head{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    flex-direction: column;
+}
+
+.mainheading{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.horizontal-line {
+    height: 2px;
+    width: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #233d7b;
+  }
+
+  .introtxt{
+    lighting-color: currentcolor;
+    color: grey;
+    margin-bottom: 4%;
+    font-palette: light;
+  }
+
+  .expbtn{
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    display: flex;
+  }
+
+
+  @media (min-width: 320px) and (max-width: 767px) {
+
+    .page2 {
+      min-height: 100vh;
+      width: 100vw;
+      background-image: url(https://jobs.nokriwp.com/wp-content/uploads/2018/10/bg-image-category.png);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      margin-bottom: 10%;
+    }
+    
+    .card-body {
+      flex: 1 1 auto;
+      padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+      color: var(--bs-card-color);
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .cardimage{
+        width: 100px;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+    
+    .card-title{
+        font-weight: bold;
+        font-size: medium;
+        margin-top: 10%;
+    }
+    .head{
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        flex-direction: column;
+    }
+    
+    .mainheading{
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 5%;
+    }
+    
+    .horizontal-line {
+      height: 2px;
+      width: 26%;
+      margin-top: 3%;
+      margin-bottom: 5%;
+      background-color: #233d7b;
+      }
+    
+      .introtxt{
+        lighting-color: currentcolor;
+        color: grey;
+        margin-bottom: 4%;
+        font-palette: light;
+        /* max-width: 19rem; */
+        display: flex;
+        width: 70%;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+      .expbtn{
+        justify-content: center;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        display: flex;
+      }
+    
+
+  }

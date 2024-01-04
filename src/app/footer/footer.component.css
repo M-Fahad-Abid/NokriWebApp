@@ -1,0 +1,328 @@
+.footer{
+    background-image: linear-gradient(rgb(2 52 117 / 71%), rgb(6 2 12 / 84%)), url(https://jobs.nokriwp.com/wp-content/uploads/2018/09/4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.items{
+    margin-top: 7%;
+    display: flex;
+    margin-bottom: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* gap: 2%; */
+    /* align-content: center; */
+
+}
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .links{
+    display: flex;
+    margin-top: 10%;
+  }
+
+  .second{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.heading{
+    color: white;
+    font-size: 20px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10%;
+}
+
+.complete{
+    display: flex;
+    gap: 20%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+.complete a{
+    text-decoration: none;
+    color: white;
+}
+.pt1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.pt2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.pt3{
+       display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start; 
+}
+
+.apps{
+    margin-top: 10%;
+}
+
+.apps img{
+    width: 150px;
+}
+
+
+.horizontal-line {
+    height: 2px;
+    width: 100%;
+    
+    background-color: #ffff;
+  } 
+
+  .end{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .end-txt{
+    color: white;
+    font-size: 1rem;
+  }
+
+
+  @media (min-width: 320px) and (max-width: 767px) {
+
+
+    .items{
+        margin-top: 10%;
+        display: flex;
+        margin-bottom: 10%;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        /* gap: 2%; */
+        /* align-content: center; */
+    
+    }
+    
+    
+    
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+    
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    
+      .fa-instagram {
+        background: #125688;
+        color: white;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    
+      .fa-pinterest {
+        background: #cb2027;
+        color: white;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    
+      .fa-tumblr {
+        background: #2c4762;
+        color: white;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    
+      .links{
+        display: flex;
+        margin-top: 10%;
+      }
+    
+      .second{
+        margin-bottom: 10%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        
+    }
+    
+    .heading{
+        color: white;
+        font-size: 20px;
+    }
+    
+    .list{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10%;
+    }
+    
+    .complete{
+        display: flex;
+        gap: 20%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    
+    .complete a{
+        text-decoration: none;
+        color: white;
+    }
+    .pt1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .pt2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .pt3{
+           display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start; 
+    }
+    
+    .apps{
+        margin-top: 10%;
+    }
+    
+    .apps img{
+        width: 150px;
+    }
+    
+    
+    .horizontal-line {
+        height: 2px;
+        width: 100%;
+        
+        background-color: #ffff;
+      } 
+    
+      .end{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+    
+      .end-txt{
+        color: white;
+        font-size: 1rem;
+      }
+    
+
+
+
+  }
