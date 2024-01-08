@@ -1,7 +1,7 @@
 import {
   BrowserModule,
   DomRendererFactory2
-} from "./chunk-2UCH2VGM.js";
+} from "./chunk-Q7NSCPBW.js";
 import {
   DOCUMENT
 } from "./chunk-CMUZMKW3.js";
@@ -4643,4 +4643,4 @@ export {
    * License: MIT
    *)
 */
-//# sourceMappingURL=chunk-R5BVVXIY.js.map
+//# sourceMappingURL=chunk-HB4SH5RR.js.map

@@ -5,7 +5,8 @@ import {
 } from "./chunk-XMLMM3SJ.js";
 import {
   DomSanitizer
-} from "./chunk-2UCH2VGM.js";
+} from "./chunk-Q7NSCPBW.js";
+import "./chunk-GNGNCAEN.js";
 import {
   DOCUMENT,
   NgClass,
